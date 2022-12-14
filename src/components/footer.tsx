@@ -13,7 +13,7 @@ export const Footer = React.memo(({ fullWidth, ...props }: FlexProps & { fullWid
         px={fullWidth ? ['base', 'base', 'extra-loose'] : 'unset'}
       >
         <Flex ml={['unset', 'unset', 'auto']}>
-          <a href="https://github.com/1devNdogs/stacks-wallet-explorer">Github</a>
+          <a target={"_blank"} href="https://github.com/1devNdogs/stacks-wallet-explorer">Github</a>
         </Flex>
       </Flex>
     </Box>
