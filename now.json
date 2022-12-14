@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "public": false,
+  "alias": ["stacks-wallet-explorer"],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "headers": {
+        "cache-control": "s-maxage=3600"
+      },
+      "dest": "/api/$1",
+      "continue": true
+    }
+  ]
+}

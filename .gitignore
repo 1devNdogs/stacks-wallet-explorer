@@ -1,0 +1,19 @@
+dist/
+out/
+node_modules/
+tests/screenshots/*
+.env.local
+.next
+.idea
+.DS_Store
+.now
+build
+old/
+_old/
+.yalc
+yalc.lock
+.vercel
+yarn-error.log
+
+# Sentry
+.sentryclirc
