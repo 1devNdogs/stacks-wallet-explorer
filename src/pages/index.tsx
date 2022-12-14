@@ -4,7 +4,7 @@ import { SectionTitle, Title } from '@components/typography';
 import { Meta } from '@components/meta-head';
 import { TxsListWithTabsMemoized } from '@modules/TransactionList/components/TxsListWithTabsMemoized';
 import { DEFAULT_LIST_LIMIT } from '@common/constants';
-import { useAccount } from '@micro-stacks/react';
+import { useCurrentStxAddress } from '@micro-stacks/react';
 
 import type { GetServerSidePropsContext, NextPage } from 'next';
 import { Section } from '@components/section';
@@ -21,7 +21,7 @@ export async function getServerSideProps(ctx: GetServerSidePropsContext) {
 }
 
 const Home: NextPage = () => {
-  const { stxAddress } = useAccount();
+  const stxAddress= useCurrentStxAddress();
   return (
     <main>
       <Meta title="Recent transactions" />

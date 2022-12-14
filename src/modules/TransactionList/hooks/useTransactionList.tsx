@@ -1,11 +1,11 @@
 import { useAddressQueries } from '@features/address/use-address-queries';
 import { useInfiniteQuery } from 'react-query';
 import { getNextPageParam } from '@common/utils';
-import { useAccount } from '@micro-stacks/react';
+import { useCurrentStxAddress } from '@micro-stacks/react';
 
 export function useTransactionList(limit: number) {
   console.log('[debug] useTransactionList');
-  const { stxAddress } = useAccount();
+  const stxAddress= useCurrentStxAddress();
   console.log('[debug] stxAddress', stxAddress);
 
   const queries = useAddressQueries();
