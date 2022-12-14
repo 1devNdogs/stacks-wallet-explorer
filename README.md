@@ -1,6 +1,8 @@
 # stacks-wallet-explorer
 
-A simple instroduction to [Stacks.js](https://www.hiro.so/stacks-js) and [Microstacks](https://micro-stacks.dev/)
+A simple introduction to [Stacks.js](https://www.hiro.so/stacks-js) and [Microstacks](https://micro-stacks.dev/)
+
+![image](https://user-images.githubusercontent.com/11360704/207528609-2a8efcfb-4fc4-4bcf-8c6d-523b953ff75b.png)
 
 ### Getting started
 
@@ -44,6 +46,8 @@ yarn dev
 
 To build for production, run `yarn build` which will run the default next.js build task.
 
+<hr>
+
 # Stacks Development Introduction
 
 ## References
@@ -54,8 +58,9 @@ To build for production, run `yarn build` which will run the default next.js bui
 - [Stacks API + Faucet](https://docs.hiro.so/api#tag/Faucets)
 - [Mempool Transactions](https://docs.hiro.so/api#tag/Transactions/operation/get_mempool_transaction_list)
 - [Transaction by ID](https://docs.hiro.so/api#tag/Transactions/operation/get_transaction_by_id)
-- [Websockets](hhttps://docs.hiro.so/get-started/stacks-blockchain-api#websocket-sample)
+- [Websockets](https://docs.hiro.so/get-started/stacks-blockchain-api#websocket-sample)
 - [Stacks Explorer](https://github.com/hirosystems/explorer)
+- [hydration-mismatch](https://micro-stacks.dev/guides/with-nextjs#hydration-mismatch)
 
 ## Prompt
 
